@@ -46,8 +46,8 @@ stage('FTP Upload') {
                                 patternSeparator: '[, ]+',
                                 remoteDirectory: '/',
                                 remoteDirectorySDF: false,
-                                removePrefix: '/dist/',
-                                sourceFiles: '/dist/**'
+                                removePrefix: 'dist/',
+                                sourceFiles: 'dist/**'
                             ]
                         ]
                     ]
