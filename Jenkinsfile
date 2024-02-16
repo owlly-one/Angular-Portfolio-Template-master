@@ -19,7 +19,7 @@ pipeline {
           // sh 'npm test' // Uncomment if you want to run tests
 
           // Build and start the application
-          sh 'ng build --prod --buildOptimizer=true'
+          sh 'npm run build --prod --buildOptimizer=true'
         }
       }
     }
