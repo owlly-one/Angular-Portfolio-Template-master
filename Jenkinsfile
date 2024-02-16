@@ -47,7 +47,7 @@ stage('FTP Upload') {
                                 remoteDirectory: '/',
                                 remoteDirectorySDF: false,
                                 removePrefix: 'dist/',
-                                sourceFiles: '/dist/**'
+                                sourceFiles: 'dist/**'
                             ]
                         ]
                     ]
