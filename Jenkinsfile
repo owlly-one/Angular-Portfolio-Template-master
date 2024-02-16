@@ -13,7 +13,7 @@ pipeline {
           // Install yarn package
           // sh 'npm install -g yarn'
           // Install dependencies and build
-          sh 'npm install'
+          sh 'npm install --force'
 
           // Run tests (optional)
           // sh 'npm test' // Uncomment if you want to run tests
